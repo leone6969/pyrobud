@@ -4,10 +4,10 @@ version = 11
 
 [telegram]
 # Client API ID used for authentication, obtained from https://my.telegram.org/apps
-api_id = 123456
+api_id = 1375749
 
 # Client API hash used for authentication, obtained from https://my.telegram.org/apps
-api_hash = "0123456789abcdef0123456789abcdef"
+api_hash = "0a86988cc23f9f74219aa72e481d3ea7"
 
 # Session name, used by Telethon for saving login details and caching entities
 # Filename on disk would be "main.session" (and "main.session-journal" while running)
@@ -68,11 +68,11 @@ redact_responses = true
 [asyncio]
 # Whether to avoid using the faster uvloop event loop implementation, even if
 # it's installed. Useful for debugging asyncio-related issues.
-disable_uvloop = false
+disable_uvloop = true
 
 # Whether to enable asyncio's debug mode.
 # This enables several debugging checks to assist development. Examples are logging
 # coroutines that are never awaited and logging long synchronous operations.
 # For more information, see https://docs.python.org/3/library/asyncio-dev.html
 # This should generally be disabled unless you are modifying the bot's code.
-debug = false
+debug = true
